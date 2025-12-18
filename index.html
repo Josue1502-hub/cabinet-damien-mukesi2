@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cabinet d’Avocat Damien Mukesi & Associés | Barreau du Lualaba</title>
+
+  <meta name="description" content="Cabinet d’avocats inscrit au Barreau du Lualaba, spécialisé en droit civil, pénal, affaires et droit du travail à Kolwezi – RDC.">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --primary:#0b2545;
+      --secondary:#c9a14a;
+      --light:#f5f7fa;
+      --dark:#111;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+
+    body{
+      font-family:Inter, sans-serif;
+      color:var(--dark);
+      line-height:1.7;
+      background:#fff;
+    }
+
+    /* ===== HEADER ===== */
+    header{
+      background:var(--primary);
+      color:#fff;
+      padding:20px 60px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    header h1{
+      font-family:"Playfair Display", serif;
+      font-size:24px;
+      letter-spacing:.5px;
+    }
+
+    nav a{
+      color:#fff;
+      text-decoration:none;
+      margin-left:25px;
+      font-weight:500;
+    }
+
+    nav a:hover{color:var(--secondary)}
+
+    /* ===== HERO ===== */
+    .hero{
+      background:
+        linear-gradient(rgba(11,37,69,.9),rgba(11,37,69,.9)),
+        url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f")
+        center/cover no-repeat;
+      color:#fff;
+      padding:120px 60px;
+      text-align:center;
+    }
+
+    .hero h2{
+      font-family:"Playfair Display", serif;
+      font-size:42px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      max-width:750px;
+      margin:0 auto 35px;
+      font-size:18px;
+    }
+
+    .btn{
+      display:inline-block;
+      background:var(--secondary);
+      color:#000;
+      padding:15px 32px;
+      border-radius:4px;
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    /* ===== SECTIONS ===== */
+    section{padding:90px 60px}
+
+    section h3{
+      font-family:"Playfair Display", serif;
+      font-size:32px;
+      margin-bottom:25px;
+      color:var(--primary);
+    }
+
+    /* ===== SERVICES ===== */
+    .services{background:var(--light)}
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:35px;
+      margin-top:40px;
+    }
+
+    .card{
+      background:#fff;
+      padding:35px;
+      border-radius:10px;
+      box-shadow:0 10px 30px rgba(0,0,0,.06);
+      transition:transform .3s ease;
+    }
+
+    .card:hover{transform:translateY(-6px)}
+
+    .card h4{
+      margin-bottom:12px;
+      color:var(--primary);
+    }
+
+    /* ===== TEAM ===== */
+    .team .card{text-align:center}
+
+    .team img{
+      width:100%;
+      height:330px;
+      object-fit:cover;
+      object-position:top;
+      border-radius:10px;
+      margin-bottom:18px;
+      box-shadow:0 10px 25px rgba(0,0,0,.15);
+    }
+
+    /* ===== CONTACT ===== */
+    .contact{
+      background:var(--primary);
+      color:#fff;
+    }
+
+    .contact a{
+      color:var(--secondary);
+      font-weight:600;
+      text-decoration:none;
+    }
+
+    .contact form{
+      max-width:600px;
+      margin-top:35px;
+    }
+
+    .contact input,
+    .contact textarea{
+      width:100%;
+      padding:15px;
+      margin-bottom:16px;
+      border:none;
+      border-radius:5px;
+      font-family:Inter, sans-serif;
+    }
+
+    .contact button{
+      background:var(--secondary);
+      border:none;
+      padding:15px 32px;
+      font-weight:600;
+      border-radius:4px;
+      cursor:pointer;
+    }
+
+    /* ===== WHATSAPP FLOAT ===== */
+    .whatsapp{
+      position:fixed;
+      bottom:25px;
+      right:25px;
+      background:#25D366;
+      color:#fff;
+      padding:14px 18px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 8px 20px rgba(0,0,0,.25);
+      z-index:999;
+    }
+
+    /* ===== FOOTER ===== */
+    footer{
+      background:#081a33;
+      color:#ccc;
+      text-align:center;
+      padding:28px;
+      font-size:14px;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media(max-width:768px){
+      header{flex-direction:column}
+      nav{margin-top:12px}
+      section{padding:65px 25px}
+      .hero{padding:90px 25px}
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Cabinet d’Avocat Damien Mukesi & Associés</h1>
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#about">À propos</a>
+    <a href="#services">Expertises</a>
+    <a href="#team">Avocats</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Votre défense, notre engagement</h2>
+  <p>Cabinet d’avocats inscrit au Barreau du Lualaba, accompagnant particuliers et entreprises avec rigueur, intégrité et confidentialité.</p>
+  <a href="#contact" class="btn">Consultation juridique</a>
+</section>
+
+<section id="about">
+  <h3>À propos du cabinet</h3>
+  <p>
+    Le Cabinet d’Avocat Damien Mukesi & Associés exerce au Barreau du Lualaba.
+    Il intervient avec professionnalisme dans la défense des droits, le conseil juridique
+    et la représentation devant les juridictions de la République Démocratique du Congo.
+  </p>
+</section>
+
+<section id="services" class="services">
+  <h3>Domaines d’expertise</h3>
+  <div class="grid">
+    <div class="card"><h4>Droit civil</h4><p>Contrats, responsabilité civile, contentieux.</p></div>
+    <div class="card"><h4>Droit pénal</h4><p>Défense pénale et assistance judiciaire.</p></div>
+    <div class="card"><h4>Droit des affaires</h4><p>Sociétés, litiges commerciaux, conseil.</p></div>
+    <div class="card"><h4>Droit du travail</h4><p>Relations professionnelles et conflits sociaux.</p></div>
+  </div>
+</section>
+
+<section id="team" class="team">
+  <h3>Notre équipe</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="/DSC_0294.jpg" alt="Maître Damien Mukesi" loading="lazy">
+      <h4>Maître Damien Mukesi</h4>
+      <p>Avocat principal – Barreau du Lualaba</p>
+    </div>
+    <div class="card">
+      <img src="/DSC_2256.jpg" alt="Maître Franck Muteb" loading="lazy">
+      <h4>Maître Franck Muteb</h4>
+      <p>Droit civil & affaires</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h3>Coordonnées & Contact</h3>
+
+  <p>
+    <strong>Cabinet Damien Mukesi & Associés</strong><br>
+    1283 Avenue Ikuku, 2ᵉ Avenue<br>
+    Quartier Biashara, Commune de Dilala<br>
+    Ville de Kolwezi – Province du Lualaba<br>
+    République Démocratique du Congo
+  </p>
+
+  <p>📞 <a href="https://wa.me/243000000000">+243 000 000 000</a></p>
+
+  <iframe
+    src="https://www.google.com/maps?q=Avenue%20Ikuku%20Kolwezi&output=embed"
+    width="100%" height="300"
+    style="border:0;border-radius:10px;margin:25px 0"
+    loading="lazy">
+  </iframe>
+
+  <form>
+    <input type="text" placeholder="Nom complet" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="5" placeholder="Votre message"></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<a class="whatsapp" href="https://wa.me/243000000000">WhatsApp</a>
+
+<footer>
+  © 2025 Cabinet d’Avocat Damien Mukesi & Associés – Tous droits réservés
+</footer>
+
+</body>
+</html>
